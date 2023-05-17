@@ -4,7 +4,7 @@ const ejs = require("ejs");
 const lodash = require("lodash");
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/blogDB").then(function(){
+mongoose.connect("mongodb+srv://gowtham777y:nogqax-wadvaz-3Tinbe@cluster0.gnecugq.mongodb.net/blogDB?retryWrites=true&w=majority").then(function(){
   console.log('Connected Successfully');
 }).catch(function(err){
   console.log(err);
